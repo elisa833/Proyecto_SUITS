@@ -1,0 +1,10 @@
+body {
+    /*imagen de moto con bolsas*/
+    background-image: url("https://i.pinimg.com/736x/da/cd/0a/dacd0a52c215cae5e6bcb8dd5b866aa4.jpg");
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina relleno por defecto */
+    height: 50vh; /* Asegura que el cuerpo tenga la altura de la ventana */
+    background-size: cover; /* Escala la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}

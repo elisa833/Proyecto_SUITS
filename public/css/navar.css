@@ -1,0 +1,124 @@
+#administrador {
+    background-color:  #A64D79; /* Cambia el fondo */
+    border-bottom: 2px solid #e667cabe; /* Agrega un borde */
+}
+
+/* Estilo para el texto de la marca */
+#administrador .navbar-brand {
+    font-size: 1.5rem; /* Cambia el tamaño del texto */
+    font-weight: bold; /* Negrita */
+    color: #bd0789; /* Color del texto */
+}
+
+/* Estilo para los enlaces de navegación */
+#administrador .nav-link {
+    color: #ac0783; /* Cambia el color de los enlaces */
+    font-size: 1rem;
+    transition: color 0.3s; /* Transición suave en hover */
+}
+
+#administrador .nav-link:hover {
+    color: #b30051; /* Color al pasar el cursor */
+}
+
+/* Estilo del botón de la barra de navegación */
+#administrador .navbar-toggler {
+    border-color: #343a40; /* Cambia el color del borde */
+}
+
+/* Estilo del menú desplegable */
+#administrador .dropdown-menu {
+    background-color: #f875d9; /* Fondo blanco */
+    border: 1px solid #f875d9; /* Borde gris claro */
+}
+
+#administrador .dropdown-item {
+    color: #e61359; /* Color de los elementos del menú */
+}
+
+#administrador .dropdown-item:hover {
+    background-color: #f875d9; /* Fondo al pasar el cursor */
+}
+.navbar-logo {
+    width: 80px; /* Ajusta el tamaño de la imagen */
+    height: 80px; /* Mantiene la proporción */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen encaje bien */
+    border: 2px solid #dee2e6; /* Borde decorativo */
+}
+
+/* Asegurarse de que la imagen solo se vea en pantallas grandes */
+.mx-auto {
+    text-align: center;
+}
+
+/*Cliente navbar*/
+
+#cliente {
+    background-color: #fdf8f5; /* Fondo cálido */
+    border-bottom: 2px solid #ffddb5; /* Línea decorativa */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo del texto de la marca */
+#cliente .navbar-brand {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #da4c93; /* Color acentuado */
+}
+
+#cliente .navbar-brand:hover {
+    color: #a3523d; /* Color al pasar el cursor */
+}
+
+/* Enlaces de navegación */
+#cliente .nav-link {
+    color: #9b3271; /* Gris suave */
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+#cliente .nav-link:hover {
+    color: #d65289; /* Color acentuado al pasar el cursor */
+}
+
+/* Menú desplegable */
+#cliente .dropdown-menu {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ffddb5; /* Borde decorativo */
+}
+
+#cliente .dropdown-item {
+    color: #171718;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#cliente .dropdown-item:hover {
+    background-color: #ffebd6; /* Fondo al pasar el cursor */
+    color: #d65275; /* Texto acentuado */
+}
+
+/* Botón de toggler */
+#cliente .navbar-toggler {
+    border-color: #ffddb5;
+}
+
+#cliente .navbar-toggler-icon {
+    background-color: #d65275; /* Color personalizado */
+}
+
+/* Enlaces en pantallas pequeñas */
+#cliente .nav-item .nav-link {
+    padding: 0.5rem 1rem;
+}
+
+/* Sesión */
+#cliente .nav-link.ms-3 {
+    font-weight: 600;
+    color: #d65275;
+}
+
+#cliente .nav-link.ms-3:hover {
+    text-decoration: underline;
+    color: #a3523d;
+}
